@@ -4,53 +4,70 @@
     <title>SMQR ESPORTS</title>
     <style>
         
+    
+        body {
+            position: relative;
+        }
+
+        img1 {
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        header {
+            position: relative;
+        }
+
+        @keyframes blink {
+            10% {
+                color: rgb(245, 3, 3);
+        }
+            50% {
+                color: red;
+        }
+            100% {
+                color: black;
+    }
+}
+
+        h2.blinking {
+            animation: blink 1s infinite;
+        }
+
         img {
             width: 150px;
             height: 150px;
+            
         }
 
         body {
             font-family: 'Times New Roman';
-            background-color: #f80505;
+            background-color: #fe0909;
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: #0e0d0d;
-            color: rgb(248, 5, 5);
+            background-color: #ffffff;
+            color: rgb(241, 9, 9);
             text-align: center;
             padding: 10px;
         }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        nav ul  li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: rgb(255, 0, 0);
-
-        }
-
+        
         main {
-            max-width: 800px;
+            max-width: 780px;
             margin: 20px auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: #000000;
             box-shadow: 0 0 10px rgba(247, 246, 246, 0.2);
         }
 
         h1 {
             font-size: 24px;
-            color: rgb(247, 245, 245);
+            color: rgb(244, 7, 7);
         }
 
         h2 {
@@ -60,67 +77,97 @@
         }
 
         p {
-            font-size: 16px;
-            line-height: 1.5;
-            color: black;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f7f4f4; 
+    
         }
 
         footer {
             text-align: center;
-            background-color: #f9f7f7;
-            color: white;
+            background-color: #020202;
+            
+            color: rgb(11, 11, 11);
             padding: 10px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Selamat Datang di 
-            "SMQR ESPORTS"</h1>
-        <img src="smqr esports.jpg">
-        <nav>
-            <ul>
-                <li><a href="#">DIVISI <strong>MOBA</strong></a></li>
-                <li><a href="#">DIVISI <strong>FPS</strong></a></li>
-                <li><a href="#"><strong>P R E S T A S I</strong></a></li>
-            </ul>
-        </nav>
+        <h1 style="font-weight: bold;">SELAMAT DATANG</h1>
+            <p><span style="color: #0f0f0f; font-weight: bold;"> DI </span></p>
+            <h2 class="blinking" style="font-weight: bold;">SMQR ESPORTS</h2>
+            <img src="/smqr logo.png" alt="SMQR Logo">
     </header>
 
     <main>
         <section>
-            <h2>Tentang Kami</h2>
-            <p>SMQR Esports adalah tim Cabang Olahraga Esports yang di bentuk pada 4 Juni 2019 Yang saat ini mempunyai 2 Divisi yaitu Divisi MOBA dan Divisi FPS.
-            SMQR Esports saat ini telah Menjuarai Kejuaraan(Tournament) sebanyak 54 kali dengan rincian : Tournament Offline 20 Kali
-            dan Tournament Online 34 Kali.
+            <h1>TENTANG</h1>
+            <p>SMQR Esports adalah tim Cabang Olahraga Esports yang di bentuk pada 4 Juni 2019 Yang saat ini mempunyai 2 Divisi yaitu Divisi <span style="color: red;" > MOBA </span> dan Divisi<span style="color: red;" > FPS.</span> 
+            </span> Esports saat ini telah Menjuarai Kejuaraan(Tournament) sebanyak </span> <span style="color: #f70505;">54 kali dengan rincian : Tournament Offline 20 Kali
+                dan Tournament Online 34 Kali.</span> 
             </p>
         </section>
 
         <section>
-            <div class="beberapa piagam prestasi">
-                <p> Daftar Beberapa Kejuaraan yang telah di menangkan :</p>
+            <h1>TUJUAN</h1>
+            <ul>
+                <li><span style="color: red;">VISI:</span><span style="color: #fcfcfc;"> Menjadi Tim Esports yang dapat Bersaing Berskala Internasional pada Tahun 2045</span> </li>
+                <li><span style="color: red;">MISI:</span> <span style="color: #f9f9f8;"> Menciptakan dan Membantu Pemain Esports agar unggul dan dapat bersaing dalam dunia kompetitif.</span> </li>
+            </ul>
+        </section>
+        
+        
+
+        <section>
+            <div class="Wujud nyata SMQR">
+                <h1>KOMITMEN Memajukan Esports</h1>
+                <p>Komitmen kami adalah untuk terus mendukung dan memajukan komunitas Esports dengan fokus pada pembinaan bakat-bakat muda. Kami secara aktif terlibat dalam penyelenggaraan Tournament Esports yang tidak hanya mendorong prestasi, tetapi juga mendukung visi pemerintah dalam memajukan industri Esports</p>
             </div>
-            <img src="/26, 1 200223 offline.jpg" alt="piagam fps 1">
-            <img src="/27, 1 120323 offline.jpg" alt="piagam fps 2">
-            <img src="/MLBB TOUR OFFLINE JUARA 1 dan JUARA 2 di Baturaja Kab OKU 2 Mei 2021.jpeg" alt="piagam moba1">
-            <img src="/MLBB TOUR OFFLINE JUARA 1 JUARA 3 DAN JUARA 4 di Baturaja Kab OKU 27 Februari 2021.jpeg" alt="piagam moba2">
-            <img src="/MLBB TOUR OFFLINE JUARA 1 di Baturaja Kab OKU 12 April 2021.jpeg" alt="piagam moba3">
+            <img src="/Arsip/Bersama PJ Bupati OKU 2022-2024.jpg" alt="Penyerahan Jersey Sebagai Bentuk Dukungan">
+            <img src="/Arsip/Penyelenggaraan tournament 1.jpeg" alt="Tour MOBA 1 offline">
+            <img src="/Arsip/Penyelenggaraan tournament 2b.jpeg" alt="Tour MOBA 2 Offline">
+            <img src="/Arsip/Penyelenggaraan tournament 3.jpeg" alt="Tour MOBA 3 offline">
+            <img src="/Arsip/bakti sosial smqr.jpeg" alt="Berbagi Kasih bersama Panti Asuhan">
+        </section>
 
-
+        <section>
+            <div>
+                <h1>MEDIA DIGITAL</h1>
+                    <p>Tingkatkan aksi, hadir dalam kemenangan.Lihat momen-momen epik SMQR Esports kami di sini!</p>
+            </div>
+            <img src="/Arsip/ganjarfps1.jpeg" alt="TourGanjarFPS1">
+            <img src="/Arsip/Radarsriwijaya.jpeg" alt="TourMOBA12">
+            <img src="/Arsip/tribunsumsel.jpeg" alt="TourFPS">
+            <img src="/Arsip/trans7.jpeg" alt="TourTrans7FPS">
+            <img src="/Arsip/sumselupdate.jpeg" alt="TourMOBA12">
+            
         </section>
 
 
         <section>
             <h2>Kontak</h2>
-            <p>Silakan hubungi kami di IG: <a href="">@smqresports</a> .</p>
-            <P>Atau Discord kami <a href=""></a></P>
+            <p>Jangan lupa Follow IG dan Jangan lewatkan momen seru kami di Discord! Bergabunglah dengan komunitas SMQR Esports dan temukan teman-teman baru. Mari jadi bagian dari perjalanan esports bersama kami! </p>
+            <p>IG: <a href="https://www.instagram.com/smqresports/?hl=en">@smqresports</a>
+            <p>Discord: <a href="https://l.instagram.com/?u=https%3A%2F%2Fdiscord.gg%2FYm5cCEb&e=AT1wWWT1POSSdVlCOj7rh846k1-__653n9Rcv9IHRuT1hLBfD0wMWvtuwNHZZDzgPeC9nldzdXB3lx3Heu5u_Ryfc2gQ_woCSipKZYdO3vSa7X0AAqJpR1Q">SMQREsports</a></p>
+
+             
         </section>
     </main>
 
     <footer>
-        <p> 
-            <text>#MAJULAHSMQR</text>
-        </p>
+        <div class="footer">
+            <div class="content">
+                <ul class="link-container">
+                    <li><a href="/Prestasi/">P R E S T A S I</a></li>
+                    <li><a href="/Sponsor/">SPONSORS</a></li>
+                    <li><a href="#" style="color: red;">#Majulahsmqr</a></li>
+
+                </ul>
+            </div>
+        </div>
     </footer>
+    
+    
 </body>
 </html>

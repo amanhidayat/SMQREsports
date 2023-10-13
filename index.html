@@ -1,173 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>SMQR ESPORTS</title>
-    <style>
-        
-    
-        body {
-            position: relative;
-        }
+  <head>
+    <meta charset="UTF-8" />
 
-        img1 {
-            width: 150px;
-            height: 150px;
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smqr</title>
 
-        header {
-            position: relative;
-        }
+    <!-- box icon -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 
-        @keyframes blink {
-            10% {
-                color: rgb(245, 3, 3);
-        }
-            50% {
-                color: red;
-        }
-            100% {
-                color: black;
-    }
-}
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header desain -->
+    <header class="header">
+        <a href="#" class="logo">
+          <img src="./img/smqr logo merah.jpeg" alt="SMQR Esports" width="110px" height="110px" />
+        </a>
+      
+        <nav class="navbar">
+          <a href="#home"><span>Home</span></a>
+          <a href="#commitment"><span>Commitment</span></a>
+          <a href="#achievements"><span>Achievements</span></a>
+         
+        </nav>
+      
+        <i class="bx bx-menu" id="menu-icon"></i>
+      </header>
 
-        h2.blinking {
-            animation: blink 1s infinite;
-        }
-
-        img {
-            width: 150px;
-            height: 150px;
-            
-        }
-
-        body {
-            font-family: 'Times New Roman';
-            background-color: #fe0909;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #ffffff;
-            color: rgb(241, 9, 9);
-            text-align: center;
-            padding: 10px;
-        }
-        
-        main {
-            max-width: 780px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #000000;
-            box-shadow: 0 0 10px rgba(247, 246, 246, 0.2);
-        }
-
-        h1 {
-            font-size: 24px;
-            color: rgb(244, 7, 7);
-        }
-
-        h2 {
-            font-size: large;
-            font-size: 30px;
-            color: red;
-        }
-
-        p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #f7f4f4; 
-    
-        }
-
-        footer {
-            text-align: center;
-            background-color: #020202;
-            
-            color: rgb(11, 11, 11);
-            padding: 10px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1 style="font-weight: bold;">SELAMAT DATANG</h1>
-            <p><span style="color: #0f0f0f; font-weight: bold;"> DI </span></p>
-            <h2 class="blinking" style="font-weight: bold;">SMQR ESPORTS</h2>
-            <img src="./smqr logo.png" alt="SMQR Logo">
-    </header>
-
-    <main>
-        <section>
-            <h1>TENTANG</h1>
-            <p>SMQR Esports adalah tim Cabang Olahraga Esports yang di bentuk pada 4 Juni 2019 Yang saat ini mempunyai 2 Divisi yaitu Divisi <span style="color: red;" > MOBA </span> dan Divisi<span style="color: red;" > FPS.</span> 
-            </span> Esports saat ini telah Menjuarai Kejuaraan(Tournament) sebanyak </span> <span style="color: #f70505;">54 kali dengan rincian : Tournament Offline 20 Kali
-                dan Tournament Online 34 Kali.</span> 
-            </p>
-        </section>
-
-        <section>
-            <h1>TUJUAN</h1>
-            <ul>
-                <li><span style="color: red;">VISI:</span><span style="color: #fcfcfc;"> Menjadi Tim Esports yang dapat Bersaing Berskala Internasional pada Tahun 2045</span> </li>
-                <li><span style="color: red;">MISI:</span> <span style="color: #f9f9f8;"> Menciptakan dan Membantu Pemain Esports agar unggul dan dapat bersaing dalam dunia kompetitif.</span> </li>
-            </ul>
-        </section>
-        
-        
-
-        <section>
-            <div class="Wujud nyata SMQR">
-                <h1>KOMITMEN Memajukan Esports</h1>
-                <p>Komitmen kami adalah untuk terus mendukung dan memajukan komunitas Esports dengan fokus pada pembinaan bakat-bakat muda. Kami secara aktif terlibat dalam penyelenggaraan Tournament Esports yang tidak hanya mendorong prestasi, tetapi juga mendukung visi pemerintah dalam memajukan industri Esports</p>
-            </div>
-            <img src="./Arsip/Bersama PJ Bupati OKU 2022-2024.jpg" alt="Penyerahan Jersey Sebagai Bentuk Dukungan">
-            <img src="./Arsip/Penyelenggaraan tournament 1.jpeg" alt="Tour MOBA 1 offline">
-            <img src="./Arsip/Penyelenggaraan tournament 2b.jpeg" alt="Tour MOBA 2 Offline">
-            <img src="./Arsip/Penyelenggaraan tournament 3.jpeg" alt="Tour MOBA 3 offline">
-            <img src="./Arsip/bakti sosial smqr.jpeg" alt="Berbagi Kasih bersama Panti Asuhan">
-        </section>
-
-        <section>
-            <div>
-                <h1>MEDIA DIGITAL</h1>
-                    <p>Tingkatkan aksi, hadir dalam kemenangan.Lihat momen-momen epik SMQR Esports kami di sini!</p>
-            </div>
-            <img src="./Arsip/ganjarfps1.jpeg" alt="TourGanjarFPS1">
-            <img src="./Arsip/Radarsriwijaya.jpeg" alt="TourMOBA12">
-            <img src="./Arsip/tribunsumsel.jpeg" alt="TourFPS">
-            <img src="./Arsip/trans7.jpeg" alt="TourTrans7FPS">
-            <img src="./Arsip/sumselupdate.jpeg" alt="TourMOBA12">
-            
-        </section>
-
-
-        <section>
-            <h2>Kontak</h2>
-            <p>Jangan lupa Follow IG dan Jangan lewatkan momen seru kami di Discord! Bergabunglah dengan komunitas SMQR Esports dan temukan teman-teman baru. Mari jadi bagian dari perjalanan esports bersama kami! </p>
-            <p>IG: <a href="https://www.instagram.com/smqresports/?hl=en">@smqresports</a>
-            <p>Discord: <a href="https://l.instagram.com/?u=https%3A%2F%2Fdiscord.gg%2FYm5cCEb&e=AT1wWWT1POSSdVlCOj7rh846k1-__653n9Rcv9IHRuT1hLBfD0wMWvtuwNHZZDzgPeC9nldzdXB3lx3Heu5u_Ryfc2gQ_woCSipKZYdO3vSa7X0AAqJpR1Q">SMQREsports</a></p>
-
-             
-        </section>
-    </main>
-
-    <footer>
-        <div class="footer">
-            <div class="content">
-                <ul class="link-container">
-                    <li><a href="./Prestasi/">P R E S T A S I</a></li>
-                    <li><a href="./Sponsor/">SPONSORS</a></li>
-                    <li><a href="#" style="color: red;">#Majulahsmqr</a></li>
-
-                </ul>
-            </div>
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>SELAMAT DATANG DI</h3>
+        <h1><span>SMQR E-SPORTS</span></h1>
+        <p>Didirikan pada 04 Juni 2019 , kami hadir untuk menciptakan, mengelola bakat dan kami membuat mereka Bersinar. 
+        <p><span>SMQR</span> dibangun atas dasar keyakinan dimana E-Sports adalah Hiburan Masa Depan</p>
+        </p>
+        <p>Jadi Siapkah Diri Anda untuk Bergabung Bersama Kami?</p>
+        <div class="social-media">
+          <a href="https://www.instagram.com/smqresports"><i class="bx bxl-instagram"></i></a>
+          <a href="https://l.instagram.com/?u=https%3A%2F%2Fdiscord.com%2Finvite%2FYm5cCEb&e=AT3kLMKyMnwzyGHOzZWUV2163UcB1tiJZrpffzO6qNu47vG1Hl4Aa8aJuML8rlDkt2a2oJe1NRG0Uxut7e-J-UxftDxOkftJsfWPrDpu81tVyoceb7iMnH3E-D-9kUaApMglt-MbH6jfLsNgtcxxDLw"><i class="bx bxl-discord-alt"></i></a>
+          
         </div>
-    </footer>
-    
-    
-</body>
+      </div>
+      <div class="home-img">
+        <img src="./img/2023.png" alt="" alt="" width="400" height="200" />
+      </div>
+    </section>
+
+    <!-- achievments section design -->
+    <section class="" id="commitment">
+      <div class="commitment-img">
+        <img src="./img/Bersama PJ Bupati OKU 2022-2024.jpeg" alt="" width="300" height="200"/>
+        <img src="./img/Penyelenggaraan tournament 1.jpeg" alt="" width="300" height="200"/>
+        <img src="./img/Penyelenggaraan tournament 2.jpeg" alt="" width="300" height="200"/>
+        <img src="./img/bakti sosial smqr.jpeg" alt="" width="300" height="200"/>
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading"> Commitment</h2>
+        <h3><span>SMQR Esports</span></h3>
+        <p>
+           Komitmen kami adalah untuk terus mendukung dan memajukan komunitas Esports dengan fokus pada pembinaan bakat-bakat muda. Kami secara aktif terlibat dalam penyelenggaraan Tournament Esports yang tidak hanya mendorong prestasi, tetapi juga mendukung visi pemerintah dalam memajukan industri Esports.
+        </p>
+        <a href="#" class="btn">Klik IG atau Discord untuk Bergabung</a>
+      </div>
+    </section>
+
+    <!-- achievements section design -->
+    <section class="achievements" id="achievements">
+      <h2 class="heading"><span>Achievements</span></h2>
+      <div class="achievements-container">
+        <div class="achievements-box">
+          <img src="./img/trans7.jpeg" alt="" />
+          <div class="achievements-layer">
+            <h5>Tournament Nasional FPS Trans 7 Esports</h5>
+          </div>
+        </div>
+
+        <div class="achievements-box">
+          <img src="./img/26, 1 200223 offline.jpeg" alt="" />
+          <div class="achievements-layer">
+            <h5>Juara 1 FPS Tournament IESPA Kota Palembang Provinsi Sumatera Selatan</h5>
+          </div>
+        </div>
+
+        <div class="achievements-box">
+          <img src="./img/14 15, 1 2 020521 offline.jpeg" alt="" />
+          <div class="achievements-layer">
+            <h5>Juara 1,2 MOBA Tournament ESI Kab OKU Provinsi Sumatera Selatan</h5>
+          </div>
+        </div>
+
+        <div class="achievements-box">
+            <img src="./img/11 12, 1 3 270221 offline.jpeg" alt="" />
+            <div class="achievements-layer">
+              <h5>Juara 1,3 dan 4 MOBA Tournament ESI Kab OKU Provinsi Sumatera Selatan</h5>
+            </div>
+          </div>
+
+        <div class="achievements-box">
+            <img src="./img/ganjarfps1.jpeg" alt="" />
+            <div class="achievements-layer">
+              <h5>Juara 1 FPS Tournament Ganjar Pranowo Kab Lahat Provinsi Sumatera Selatan</h5>
+            </div>
+          </div>
+
+        <div class="achievements-box">
+            <img src="./img/ganjarmoba3.jpeg" alt="" />
+            <div class="achievements-layer">
+              <h5>Juara 3 MOBA Tournament Ganjar Pranowo Kab OKU Provinsi Sumatera Selatan</h5>
+            </div>
+          </div>
+      </div>
+
+
+    </section>
+    <section class="news" id="news">
+        <h2 class="heading">NEWS</h2>
+        <h1 style="color: black; font-size: 30px;">Kami mencari tim kompetitif untuk bergabung dengan Divisi FPS kami dengan syarat-syarat berikut</h1>
+    <ul>
+        <li style="color: black; font-size: 24px;">Siap Bekerja Sama dengan Manajemen.</li>
+        <li style="color: black; font-size: 24px;">Bertanggung Jawab Terhadap Tournament yang didaftarkan.</li>
+        <li style="color: black; font-size: 24px;">Menyetujui Persyaratan yang dibuat oleh Manajemen.</li>
+        <li style="color: black; font-size: 24px;">Untuk informasi lebih lanjut seperti Benefits dll, silakan hubungi kami melalui DM Instagram dengan mengklik tautan berikut:</li>
+        <a href="https://www.instagram.com/smqresports">
+            <i class="bx bxl-instagram" style="color: rgb(255, 252, 252); font-size: 48px;"></i>
+        </a>
+    </ul>
+    </section>
+      
+
+    <!-- footer design -->
+    <footer class="footer" style="background-color: #000000; color: #fff; padding: 20px; text-align: center; display: flex; justify-content: space-between; align-items: center;">
+        <div class="footer-sponsor">
+          <img src="./img/Angkringan Skuy.jpeg" alt="Logo Sponsor" style="max-width: 100px; height: auto;">
+        </div>
+        <div class="footer-text">
+          <p>Copyright CV Biru Langit &copy; 2023</p>
+        </div>
+        <div class="footer-iconTop">
+          <a href="#home" style="color: #fff; text-decoration: none;"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+      </footer>
+      
+  </body>
 </html>
